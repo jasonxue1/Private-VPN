@@ -7,10 +7,9 @@
 
 部署VPN:
 ```zsh
-wget --no-check-certificate
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 ```
 ```zsh
-https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 chmod +x shadowsocksR.sh
 ```
 ```zsh
