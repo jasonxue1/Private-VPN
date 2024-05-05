@@ -6,7 +6,8 @@
 用Ping软件测试ip连接。  
 用ip、用户名与密码在Termius软件登录。
 
-部署VPN:
+部署VPN:  
+部署时，只有密码自行设置，其他全部默认。  
 ```zsh
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 ```
@@ -16,8 +17,9 @@ chmod +x shadowsocksR.sh
 ```zsh
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
+界面截图保存  
 
-BBR加速
+BBR加速:  
 ```zsh
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```
