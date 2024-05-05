@@ -19,7 +19,7 @@ chmod +x shadowsocksR.sh
 ```
 界面截图保存  
 
-BBR加速(不要执行下面三行!):  
+BBR加速(可以不执行，执行的话比较慢，务必耐心等待):  
 ```zsh
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```
@@ -30,4 +30,21 @@ chmod +x bbr.sh
 ./bbr.sh
 ```
 用完记得**删除服务器**。  
-使用Shadowrocket连接
+使用Shadowrocket连接，连不上就去vultr重装系统
+
+启动
+```zsh
+/etc/init.d/shadowsocks start
+```
+停止
+```zsh
+/etc/init.d/shadowsocks stop
+```
+重启
+```zsh
+/etc/init.d/shadowsocks restart
+```
+状态
+```zsh
+/etc/init.d/shadowsocks status
+```
