@@ -19,7 +19,7 @@ chmod +x shadowsocksR.sh
 ```
 界面截图保存  
 
-BBR加速:  
+BBR加速(不要执行下面三行!):  
 ```zsh
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```
