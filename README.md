@@ -1,7 +1,7 @@
 ## 私人VPN
 [参考](https://github.com/yukaiji/buildVpn)  
 登录[vultr](www.vultr.com)新建服务器。  
-添加服务器，纽约，选择倒数第二便宜价格(3.5$)，选择centos7withoutse。  
+添加服务器，纽约，选择倒数第二便宜价格(3.5$)，选择debian11。  
 取消底下的所有附加购买内容，确定为3.5$后购买。  
 用Ping软件测试ip连接。成功则下一步(不成功的话先等5分钟)，失败则*删除服务器后*重复以上步骤  
 用ip、用户名与密码在Termius软件登录。
